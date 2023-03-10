@@ -1,0 +1,124 @@
+img {
+
+
+}
+
+header {;
+    text-align:center;
+
+}
+
+
+h1 {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #E6FFF8;
+
+  }
+
+  h2 {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #087565;
+
+  }
+
+  p {
+
+    margin-left: 5%;
+    margin-right: 5%;
+
+
+  }
+
+
+#intro {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #E6FFF8;
+
+}
+
+aside {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #E6FFF8;
+    background-color: #4FAA98;
+
+}
+
+article {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #E6FFF8;
+    background-color: #4FAA98;
+
+
+}
+
+footer {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #E6FFF8;
+    background-color: #4FAA98;
+    padding: ;
+    border: ;
+    margin: ;
+
+
+
+}
+
+.navbar {
+  position: ;
+  grid-template-columns: ;
+  background-color: #4FAA98;
+  margin: 1px;
+    
+
+}
+
+li {
+
+  display: inline;
+  text-decoration: none;
+  color: #E6FFF8;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.skills_list {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 0px 20px;
+
+}
+
+
+.conntent .education_box {
+  position: relative;
+  padding: 40px;
+}
+
+.conntent .experience_box {
+  position: relative;
+  padding: 40px;
+}
+
+
+
+.content {
+
+    position: ;
+    padding-left: 50px;
+    margin-left: 150px;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+
