@@ -1,9 +1,4 @@
-img {
-
-
-}
-
-header {;
+header {
     text-align:center;
 
 }
@@ -23,21 +18,19 @@ h1 {
 
   }
 
-  p {
-
-    margin-left: 5%;
-    margin-right: 5%;
+  .intro {
+    position: absolute;
+    top:800px;
+    right: 550px;
 
 
   }
+  
+  .banner {
+    position: relative;
+  }
 
 
-#intro {
-
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #E6FFF8;
-
-}
 
 aside {
 
@@ -70,28 +63,55 @@ footer {
 }
 
 .navbar {
-  position: ;
-  grid-template-columns: ;
-  background-color: #4FAA98;
-  margin: 1px;
-    
+
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
 
 }
 
-li {
+nav {
 
-  display: inline;
+  background: #333;
+
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav a {
   text-decoration: none;
   color: #E6FFF8;
-  font-size: 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: block;
+  padding: 10px;
 }
 
-.skills_list {
+nav a:hover {
+  background-color: #555;
+}
 
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding: 0px 20px;
+@media screen and (min-width: 768px) {
+
+    nav ul {
+      display: flex;
+    }
+
+    nav li {
+      flex: 1 1 0;
+    }
+    }
+
+
+
+
+}
+
+
+#skills {
+
+
 
 }
 

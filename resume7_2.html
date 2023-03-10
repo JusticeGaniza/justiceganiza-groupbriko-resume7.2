@@ -9,16 +9,22 @@
 </head>
 <body>
     <header>
-        <picture>
-            <source srcset="./ProfilePictureSmall.jpg" media="(max-width: 425px)">
-            <source srcset="./ProfilePictureMedium.jpg" media="(max-width: 900px)">
-            <img src="./ProfilePictureLarge.jpg" alt="Profile Image" >
-        </picture>
 
-        <h1>Justice Ganiza</h1>
-            <p id="intro">
-                An introductory statement
+        <div class="banner">
+            <picture>
+                <source srcset="images/SmallProfileImg.jpg" media="(max-width: 425px)">
+                <source srcset="images/MediumProfileImg.jpg" media="(max-width: 900px)">
+                <img src="images/LargeProfileImg.jpg" alt="Profile Image" >
+            </picture>
+        <div class="intro">
+            <h1>Justice Ganiza</h1>
+            <p >
+                    An introductory statement
             </p>
+        </div>
+        </div>
+
+
         <div class="navbar">
             <nav>
                 <ul>
@@ -57,13 +63,15 @@
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, est. Distinctio architecto facere ut laboriosam quos harum cupiditate deleniti voluptatibus recusandae nihil in sit perspiciatis, repellendus assumenda cumque, pariatur accusamus?
                         </p>
             </div>
-                 <h2 id="skills">Skills</h2>
-                    <ul class="skills_list">
+            <div id="skills">
+                 <h2>Skills</h2>
+                    <ul>
                         <li>Skill 1</li>
                         <li>Skill 2</li>
                         <li>Skill 3</li>
                         <li>Skill 4</li>
                     </ul>
+            </div>
         </article>
     </section>
     <footer class="contact">
